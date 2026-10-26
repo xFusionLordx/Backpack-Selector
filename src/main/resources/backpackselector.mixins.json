@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "net.fusionlord.backpackselector.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "KeybindHandlerMixin",
+    "BackpackScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
